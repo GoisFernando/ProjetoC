@@ -51,8 +51,8 @@ body {
 }
 
 .video {
-    width: min(55vw, 280px);
-    height: min(75vw, 500px);
+    width: min(45vw, 240px);
+    height: min(65vw, 430px);
 
     object-fit: cover;
 
