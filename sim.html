@@ -15,21 +15,15 @@
     <main class="container">
 
         <p class="frase">
-            Obrigadinho, fofa ;)
+            Obrigadinho, fofa!
         </p>
 
-        <video
-            class="video"
-            autoplay
-            loop
-            playsinline
-        >
-            <source src="videos/obrigado.mp4" type="video/mp4">
-            Seu navegador não suporta vídeos.
-        </video>
+        <p class="subfrase">Aperta na tela, linda ❤️</p>
+
+        <video class="video" muted loop playsinline preload="auto" > <source src="videos/obrigado.mp4" type="video/mp4"> Seu navegador não suporta vídeos. </video>
 
     </main>
-
+    <script> const video = document.querySelector(".video"); document.addEventListener("click", () => { video.muted = false; video.play(); }, { once: true }); </script>
 </body>
 
 </html>
