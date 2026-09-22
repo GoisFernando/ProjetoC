@@ -16,5 +16,5 @@ noBtn.addEventListener("click", () => {
 });
 
 yesBtn.addEventListener("click", () => {
-    alert("ok");
+    window.location.href = "sim.html";
 });
